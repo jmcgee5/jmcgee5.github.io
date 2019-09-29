@@ -64,3 +64,10 @@
     padding: 0px;
     margin: 0px;
   }
+
+  .center-block {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+  
+  }
