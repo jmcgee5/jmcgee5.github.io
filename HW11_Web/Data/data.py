@@ -6,8 +6,8 @@ app = Flask(__name__)
  
 @app.route("/")
 def index():
-        df = pd.read_csv("/cities.csv")
-        return render_template("index.html", data=df.head(5).to_html())
+        df = pd.read_csv("./Resources/cities.csv")
+        return render_template("index_data.html", data=df.head(5).to_html())
  
 if __name__ == "__main__":
     app.run()

@@ -1,5 +1,6 @@
 
 .navbar {
+    position: static;
     padding: 2px;
     background: #fff;
   }
@@ -53,7 +54,7 @@
   }
 
   .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
   }
@@ -63,4 +64,11 @@
     min-height: 0px;
     padding: 0px;
     margin: 0px;
+  }
+
+  .table {
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 200;
   }
